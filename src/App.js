@@ -2,6 +2,7 @@ import React from 'react';
 import './global.css'
 import './App.css'
 import './Sidebar.css'
+import './Main.css'
 
 //Componente: Bloco isolado de HTML, CSS E JS, o qual nao interfere no restante da aplicação
 //Propriedade: Informações que um componente PAI passa para o componente FILHO
@@ -38,7 +39,47 @@ function App() {
       </form>
 
     </aside>
-    <main></main>
+    <main>
+      <ul>
+        <li className="dev-item">
+          <header>
+            <img src="https://avatars3.githubusercontent.com/u/22611972?s=460&v=4" />
+            <div className="user-info">
+              <strong>Kátia Xavier</strong>
+              <span>React, Node.js</span>
+            </div>
+          </header>
+          <p>Computer science</p>
+          <a href="https://github.com/katiaxavier">Acessar Perfil no Github</a>
+        </li>
+
+        <li className="dev-item">
+          <header>
+            <img src="https://avatars3.githubusercontent.com/u/22611972?s=460&v=4" />
+            <div className="user-info">
+              <strong>Kátia Xavier</strong>
+              <span>React, Node.js</span>
+            </div>
+          </header>
+          <p>Computer science</p>
+          <a href="https://github.com/katiaxavier">Acessar Perfil no Github</a>
+        </li>
+
+        <li className="dev-item">
+          <header>
+            <img src="https://avatars3.githubusercontent.com/u/22611972?s=460&v=4" />
+            <div className="user-info">
+              <strong>Kátia Xavier</strong>
+              <span>React, Node.js</span>
+            </div>
+          </header>
+          <p>Computer science</p>
+          <a href="https://github.com/katiaxavier">Acessar Perfil no Github</a>
+        </li>
+      </ul>
+
+      
+    </main>
   </div>
   )
 }
